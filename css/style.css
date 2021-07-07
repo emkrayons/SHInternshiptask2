@@ -1,0 +1,325 @@
+body{
+    font-family: Open Sans;
+    font-size: 14px;
+
+    overflow-x: hidden;
+}
+
+nav ul, li{
+    list-style: none;
+
+}
+
+nav li{
+
+    margin: 10px;
+}
+
+nav{
+
+    display:flex;
+    justify-content:space-between;
+    font-family: Raleway;
+    width:100%;
+}
+
+nav img{
+    height: 20px;
+    width: 50px;
+    padding-top: 15px;
+}
+
+nav ul{
+    display: flex;
+}
+
+body{
+
+    background:hsl(218, 28%, 13%);
+    color: hsl(0, 0%, 100%);
+    font-size: 14px;
+    font-weight: 400px;
+
+}
+
+.img_holder img{
+    width: 100%;
+}
+
+.img_holder{
+    width:100%;
+}
+.container{
+
+    display:flex;
+
+    text-align: center;
+    flex-direction:column-reverse;
+    justify-content:space-between;
+}
+
+.button{
+    padding: 1em;
+
+    width: 220px;
+    height: 40px;
+
+    color:hsl(0, 0%, 100%);
+    background: hsl(198, 60%, 50%);
+    border-radius: 20px;
+
+    outline:none;
+    border:none;
+
+
+}
+
+header{
+    font-family: Raleway;
+    margin: 20px;
+}
+
+.content_sec{
+
+    display: flex;
+
+    text-align: center;
+
+    flex-direction: column-reverse;
+
+    justify-content: space-between;
+
+    margin: 20px;
+}
+
+#last .sec-last-img img{
+    width: 100%;
+    margin: 0 auto;
+} 
+
+#last{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.sec-last-txt{
+    margin: 10px;
+    margin: 0 auto;
+}
+
+.card-container{
+    margin: 0 auto;
+}
+
+.card{
+    background:hsl(219, 30%, 18%);
+    box-shadow: 3px 3px 3px 3px hsl(219, 30%, 18%);
+
+    padding: 1rem;
+
+    margin: 20px;
+}
+
+.card-img{
+
+    border-radius: 50%;
+    width: 50%;
+
+}
+
+footer{
+    margin: 170px 0 0 0;
+
+    background: hsl(216, 53%, 9%);
+
+}
+
+.overlay{
+
+    background: hsl(219, 30%, 18%);
+    box-shadow: 3px 3px 3px 3px hsl(219, 30%, 18%);
+    padding: 1rem;
+    margin: 20px;
+
+    text-align: center;
+}
+
+.overlay button{
+
+    margin: 20px;
+}
+
+.overlay input{
+    height: 40px;
+    width: 250px;
+
+    border-radius: 20px;
+    outline: none;
+}
+
+.container-footer{
+    padding: 4rem;
+}
+
+#p{
+
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+
+}
+
+#p img{
+    width: 20px;
+    margin: 20px;
+    height: 20px;
+}
+
+.ul li{
+    padding: 10px;
+    text-align: left;
+}
+
+
+@media(min-width: 900px){
+    .img_holder img{
+        width: 100%;
+        min-width: 600px;
+    }
+    .img_holder{
+        width: 100%;
+    }
+        .container .txt{
+            max-width: 350px;
+            margin: 0 auto;
+        }
+        main{
+            display:flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        
+        main .sec-txt{
+            max-width: 350px;
+            margin: 0 auto;
+        }
+
+        #last{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .sec-last-txt{
+            margin-top: 120px;
+
+        }
+
+        .sec-last-txt p{
+            width: 400px;
+
+        }
+
+        .sec-last-img{
+            width: 600px;
+            margin: 0 auto;
+
+        }
+
+        .sec-last-img img{
+            width: 100%;
+        }
+        .card{
+            width: 300px;
+
+        }
+        .card-container{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .overlay{
+            width: 750px;
+            position:relative;
+            top: 80%;
+            margin: 0 auto;
+            margin-bottom: 20px;
+            margin-top: 60px;
+        }
+
+        footer p{
+            width: 400px;
+        }
+        
+        .container-footer{
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+
+        }
+        .but{
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            padding: 10px;
+        }
+        .ul li{
+            margin: 20px;
+        }
+        .ul{
+            padding: 20px;
+        }
+        footer{
+            margin: 0;
+            padding: 1em;
+        }
+    }
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
